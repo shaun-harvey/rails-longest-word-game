@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+ body {
+  font-family: Roboto;
+  font-weight: 300;
+ }
+ 
+ h1 {
+  font-weight: 400;
+ }
+
+ .container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .letters {
+  padding-left: 0;
+  font-size: 24px;
+  list-style: none;
+  font-family: monospace;
+ }
+ 
+ .letters li {
+  background-color: #2aacae;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 4px 12px;
+  display: inline;
+ }
+ 
+ .form-prefix {
+  margin-top: 2em;
+ }
